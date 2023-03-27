@@ -1,0 +1,54 @@
+
+.cabecera {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.caja_principal {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caja_liga {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-size: 100px;
+    margin: 20px;
+    border-radius: 50px;
+    backdrop-filter: blur(500px);
+}
+
+.caja_liga:hover {
+    cursor: pointer;
+}
+
+.ligas {
+    color: ghostwhite;
+}
+
+.datos {
+    backdrop-filter: blur(700px);
+}
+h5{
+    text-align: center;
+    font-size: 40px;
+}
+h4{
+    font-size: 15px;
+    text-align: center;
+    color:black;
+}
+

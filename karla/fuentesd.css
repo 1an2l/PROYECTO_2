@@ -1,0 +1,47 @@
+@font-face{
+	font-family: gothferatu;
+	src:url(fuentes/gothferatu.ttf);
+
+	font-family: MACABRA_;	
+	src:url(fuentes/MACABRA_.ttf);
+
+}
+
+h1{
+	font-family: gothferatu;	
+	font-size: 100px;
+	text-align: center;
+	background-color: black;
+	width: 60%;	
+	margin: 0 auto;
+	color: white;
+}
+
+h1:hover{
+	text-transform: uppercase;
+}
+
+
+h2{
+	font-family: Agency FB;	
+	font-size: 30px;
+	text-align: center;
+	background-color: black;
+	width: 50%;
+	color: white;
+
+}
+
+h2:hover{
+	color: deepskyblue;
+  	box-shadow: inset 700px 0 0 0 lightblue;
+  	transition: color 0.3s ease-in-out, 
+  				box-shadow 0.4s ease-in-out;
+}
+
+p{
+	font-family: Agency FB;
+	font-size: 25px;
+	text-align: justify;
+	color:white;
+}
