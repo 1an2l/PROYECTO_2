@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #212025;
+}
+
+.contenedor_cuadrados_fondo {
+    position: fixed;
+    max-width: 100vw;
+    height: 600px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+}
+
+.cuadrado {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+}
+
+.cuadrado1 {
+    width: 200px;
+    height: 200px;
+    background: rgb(222,77,44);
+    background: linear-gradient(90deg, rgba(222,77,44,1) 0%, rgba(230,225,47,1) 100%);
+    top: 100px; 
+    right: 300px;
+}
+
+.cuadrado2 {
+    width: 200px;
+    height: 200px;
+    background: rgb(44, 86, 222);
+    background: linear-gradient(90deg, rgb(44, 86, 222) 0%, rgb(206, 86, 242) 100%); 
+    top: -350px;
+}
+
+.cuadrado3 {
+    width: 200px;
+    height: 200px;
+    background: rgb(222, 44, 121);
+    background: linear-gradient(90deg, rgb(222, 44, 121) 0%, rgb(230, 80, 47) 100%); 
+    left: 150px;
+}
+
+.contenedor_tarjetas {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 90vw;
+    top: calc(50% - 500px / 2);
+    left: calc(50% - 45vw);
+}
+
+.tarjeta {
+    display: inline-block;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.tarjeta:hover {
+    cursor: pointer;
+    backdrop-filter: blur(100px);
+}
+
+.img_tarjeta {
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.img_tarjeta img {
+    width: 100%;
+}
+
+.tarjeta h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.tarjeta hr {
+    margin-top: 30px;
+    color: #fff;
+    height: 0.2px;
+}
+
+.pie_tarjeta {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.pie_tarjeta .nombre_integrante {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.fecha {
+    margin-top: 10px;
+    color: #fff;
+    text-align: end;
+}
+
+@media screen and (max-width: 1200px) {
+    .contenedor_tarjetas {
+        position: relative;
+        top: 0;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
