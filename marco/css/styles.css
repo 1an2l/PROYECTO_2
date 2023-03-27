@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #19191ae0;
+}
+
+.cabecera {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contenedor_cuadrados_fondo {
+    position: fixed;
+    max-width: 100vw;
+    height: 600px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+}
+
+.cuadrado {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+}
+
+.cuadrado1 {
+    width: 200px;
+    height: 200px;
+    background: rgb(222,77,44);
+    background: linear-gradient(90deg, rgba(222,77,44,1) 0%, rgba(230,225,47,1) 100%);
+    top: 100px; 
+    right: 100px;
+}
+
+.cuadrado2 {
+    width: 200px;
+    height: 200px;
+    background: rgb(44, 86, 222);
+    background: linear-gradient(90deg, rgb(44, 86, 222) 0%, rgb(206, 86, 242) 100%); 
+    top: -300px;
+    right: -100px;
+
+}
+
+.cuadrado3 {
+    width: 200px;
+    height: 200px;
+    background: rgb(222, 44, 121);
+    background: linear-gradient(90deg, rgb(222, 44, 121) 0%, rgb(230, 80, 47) 100%); 
+    left: 150px;
+}
+
+.caja_principal {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.caja_secundaria {
+    display: flex;
+    text-align: center;
+    width: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja_secundaria h1 {
+    color: #fff;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caja_liga {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    backdrop-filter: blur(300px);
+}
+
+.caja_liga:hover {
+    cursor: pointer;
+}
+
+.ligas {
+    color: #fff;
+}
+
+.datos {
+    width: 30%;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-size: 16px;
+    backdrop-filter: blur(300px);
+}
+
+.principal {
+    width: 100vw;
+}
+
+.principal-secundario {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.titulo h1 {
+    border: 1px solid #fff;
+    border-radius: 25px;
+    backdrop-filter: blur(200px);   
+}
+
+.seccion {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    display: inline-block;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);  
+}
+
+.caja hr {
+    margin-top: 15px;
+    color: #fff;
+    height: 0.2px;
+}
+
+.caja h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.caja p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.img_caja {
+    display: flex;
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.format_img {
+    width: 110%;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    width: 90vw;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    backdrop-filter: blur(100px);  
+}
